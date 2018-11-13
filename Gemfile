@@ -1,9 +1,9 @@
 source :rubygems
 
-gem 'activerecord', :require => "active_record"
+gem 'activerecord', '>= 3.2.9'
 gem 'erubis', "~> 2.7.0"
 gem 'omniauth-google-oauth2'
-gem 'padrino'
+gem 'padrino', '>= 0.10.7'
 gem 'pg'
 gem 'rake'
 gem 'sinatra-flash', :require => 'sinatra/flash'
